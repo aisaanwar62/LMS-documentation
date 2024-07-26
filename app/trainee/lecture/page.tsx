@@ -21,7 +21,7 @@ function TraineeLecture() {
             </p>
             <div className="flex items-center justify-center mb-5">
               <Image
-                src="/Traineelecture.png"
+                src="/traineelecture.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={1000}
