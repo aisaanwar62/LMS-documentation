@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function TrainersDocumentation() {
@@ -21,10 +22,12 @@ function TrainersDocumentation() {
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/trainer.png"
               alt="IMG NO FOUND"
-              className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+              className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+              height={900}
+              width={1000}
             />
           </div>
 
@@ -32,14 +35,16 @@ function TrainersDocumentation() {
             <h1 className="font-bold">How to Manage Trainers</h1>
             <h1 className="font-semibold mt-4">1. Add New Trainer</h1>
             <p className="mb-5">
-              To add a new trainer, click the "Add New" button. This will
-              redirect you to a form where you can input the trainer details.
+              To add a new trainer, click the Add New button. This will redirect
+              you to a form where you can input the trainer details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/addtrainers.png"
                 alt="IMG NO FOUND"
-                className="h-96 w-96 shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={350}
+                width={350}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Filter the Record</h1>
@@ -48,37 +53,43 @@ function TrainersDocumentation() {
               management page to filter the list by trainer email and name.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/adminfiltertrainer.png"
                 alt="IMG NO FOUND"
-                className="h-52 w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={1000}
+                width={1500}
               />
             </div>
             <h1 className="font-semibold mt-2">3. Edit the Record</h1>
             <p className="mb-5">
               To edit an existing trainer, click the {`Action (...)`} in the
-              last column of the table, then select the "Edit" option from the
+              last column of the table, then select the Edit option from the
               dropdown menu. This will open a page for updating trainer details.
             </p>
             <div className="flex items-center justify-center my-10">
-              <img
+              <Image
                 src="/edittrainer.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={950}
+                width={1000}
               />
             </div>
             <h1 className="font-semibold mt-2">4. Delete the Record</h1>
             <p className="mb-5">
               To delete an existing trainer, click the {`Action (...)`} in the
-              last column of the table, then select the "Delete" option from the
+              last column of the table, then select the Delete option from the
               dropdown menu. Confirm the deletion in the dialog box that
               appears.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/trainerdeletion.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className="shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-2">
@@ -86,31 +97,18 @@ function TrainersDocumentation() {
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the trainer table, click the
-              "Columns" button and select or deselect the columns you want to
+              Columns button and select or deselect the columns you want to
               display.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/admintrainercolumn.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={250}
+                width={250}
               />
             </div>
-            {/* <h1 className="font-semibold mt-2">
-              6. Copy the CNIC of a Trainer
-            </h1>
-            <p className="mb-5">
-              To copy the CNIC of a trainer, click the {`Action (...)`} in the
-              last column of the table, then click the "Copy trainer ID" option
-              form the dropdown menu. This will copy the CNIC to your clipboard.
-            </p>
-            <div className="flex items-center justify-center mb-5">
-              <img
-                src="/copytainerid.png"
-                alt="IMG NO FOUND"
-                className="h-56 w-60 shadow-lg transform transition-transform duration-300 hover:scale-110"
-              />
-            </div> */}
           </div>
         </div>
       </div>

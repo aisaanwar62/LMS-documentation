@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function TrainerDashboard() {
@@ -5,7 +6,6 @@ function TrainerDashboard() {
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className=" ml-96 pl-16 mr-16">
         <h1 className="text-xl font-bold">Dashboard</h1>
-        <h2 className="text-gray-600 text-base mt-2">Trainer Dashboard</h2>
         <div className="content-section__box">
           <div className="mt-4">
             <p className="mb-10">
@@ -16,15 +16,17 @@ function TrainerDashboard() {
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/trainerdashboard.png"
               alt="IMG NO FOUND"
-              className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-100"
+              className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+              height={950}
+              width={950}
             />
           </div>
           <div className=" ">
             <div className="mt-14">
-              <h1 className="font-bold my-4">
+              <h1 className="font-bold mt-2 my-4">
                 How to Access the Trainer Dashboard
               </h1>
               <p className="mb-5">
@@ -32,10 +34,12 @@ function TrainerDashboard() {
                 Below is the image of the Trainer Login page:
               </p>
               <div className="flex items-center justify-center my-8">
-                <img
+                <Image
                   src="/trainerlogin.png"
                   alt="IMG NOT FOUND"
-                  className="h-96 w-auto  shadow-lg transform transition-transform duration-300 hover:scale-105"
+                  className="  shadow-lg transform transition-transform duration-300 hover:scale-105"
+                  height={750}
+                  width={750}
                 />
               </div>
               <p className="mb-5">

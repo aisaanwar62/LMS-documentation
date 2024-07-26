@@ -1,6 +1,7 @@
+import Image from "next/image";
 import React from "react";
 
-function SubmoduleDocumentation() {
+function TrainerSubmodule() {
   return (
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className="ml-96 pl-16 mr-16">
@@ -20,10 +21,12 @@ function SubmoduleDocumentation() {
               Below is the image of Submodule page:
             </p>
             <div className="flex items-center justify-center">
-              <img
+              <Image
                 src="/submodule.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={1000}
+                width={1000}
               />
             </div>
           </div>
@@ -37,10 +40,12 @@ function SubmoduleDocumentation() {
               management page to filter the list by status or name.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/submodulefilter.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={1000}
+                width={1000}
               />
             </div>
             <h1 className="font-semibold mt-4">2. Edit the Record</h1>
@@ -51,10 +56,12 @@ function SubmoduleDocumentation() {
               details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/editsubmodule.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={950}
+                width={950}
               />
             </div>
             <h1 className="font-semibold mt-4">3. Delete the Record</h1>
@@ -65,10 +72,12 @@ function SubmoduleDocumentation() {
               appears.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/submoduledeletion.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-4">
@@ -76,14 +85,16 @@ function SubmoduleDocumentation() {
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the Submodule table, click the
-              "Columns" button and select or deselect the columns you want to
+              Columns button and select or deselect the columns you want to
               display.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/submodulecolumn.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={150}
+                width={150}
               />
             </div>
           </div>
@@ -93,4 +104,4 @@ function SubmoduleDocumentation() {
   );
 }
 
-export default SubmoduleDocumentation;
+export default TrainerSubmodule;

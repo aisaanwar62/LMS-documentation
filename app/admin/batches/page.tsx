@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function BatchesDocumentation() {
@@ -21,10 +22,12 @@ function BatchesDocumentation() {
               Record. Below is the image of the Batch page:
             </p>
             <div className="flex items-center justify-center">
-              <img
+              <Image
                 src="/batches.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                width={1000}
+                height={900}
               />
             </div>
           </div>
@@ -34,14 +37,16 @@ function BatchesDocumentation() {
             <h1 className="font-bold">How to Manage Batches</h1>
             <h1 className="font-semibold mt-4">1. Add New Batche</h1>
             <p className="mb-5">
-              To add a new batch, click the "Add New" button. This will redirect
-              you to a form where you can input the batch details.
+              To add a new batch, click the `Add New`` button. This will
+              redirect you to a form where you can input the batch details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/addbatches.png"
                 alt="IMG NO FOUND"
-                className="h-96 w-96 shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                width={350}
+                height={350}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Filter the Record</h1>
@@ -50,37 +55,43 @@ function BatchesDocumentation() {
               page to filter the list by batch name or status.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/adminfilterbatch.png"
                 alt="IMG NO FOUND"
-                className="h-48 w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                width={1000}
+                height={1000}
               />
             </div>
             <h1 className="font-semibold mt-2">3. Edit the Record</h1>
             <p className="mb-5">
               To edit an existing batch, click the {`Action (...)`} in the last
-              column of the table, then select the "Edit" option from the
+              column of the table, then select the `Edit` option from the
               dropdown menu. This will open a page for updating batch details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/editbatches.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                width={950}
+                height={950}
               />
             </div>
             <h1 className="font-semibold mt-2">4. Delete the Record</h1>
             <p className="mb-5">
               To delete an existing batch, click the {`Action (...)`} in the
-              last column of the table, then select the "Delete" option from the
+              last column of the table, then select the `Delete` option from the
               dropdown menu. Confirm the deletion in the dialog box that
               appears.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/deletebatch.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-2">
@@ -88,45 +99,35 @@ function BatchesDocumentation() {
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the batch table, click the
-              "Columns" button and select or deselect the columns you want to
+              `Columns` button and select or deselect the columns you want to
               display.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/batchcolumn.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={250}
+                width={250}
               />
             </div>
-            {/* <h1 className="font-semibold mt-2">
-              6. Copy the CNIC of a Trainee
-            </h1>
-            <p className="mb-5">
-              To copy the CNIC of a batch, click the {`Action (...)`} in the
-              last column of the table, then click the "Copy Batch ID" option
-              form the dropdown menu. This will copy the CNIC to your clipboard.
-            </p>
-            <div className="flex items-center justify-center mb-5">
-              <img
-                src="/copybatchid.png"
-                alt="IMG NO FOUND"
-                className="h-56 w-56 shadow-lg transform transition-transform duration-300 hover:scale-110"
-              />
-            </div> */}
+
             <h1 className="font-semibold mt-2">
               6. Schedule a Batch/ Creating Attendance
             </h1>
             <p className="mb-5">
               To schedule a batch, click the {`Action (...)`} in the last column
-              of the table, then select the "Schedule Batch" option from the
+              of the table, then select the `Schedule Batch` option from the
               dropdown menu. This will allow you to set or update the batch
               schedule.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/schedulebatch.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
           </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function QuestionDocumentation() {
@@ -20,10 +21,12 @@ function QuestionDocumentation() {
               image of the Questions page:
             </p>
             <div className="flex items-center justify-center">
-              <img
+              <Image
                 src="/question.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={950}
+                width={1000}
               />
             </div>
           </div>
@@ -32,27 +35,31 @@ function QuestionDocumentation() {
             <h1 className="font-bold">How to Manage Questions</h1>
             <h1 className="font-semibold mt-4">1. Add New Question</h1>
             <p className="mb-5">
-              To add a new Question, click the "Add New" button. This will
+              To add a new Question, click the Add New button. This will
               redirect you to a form where you can input the question details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/addquestion.png"
                 alt="IMG NO FOUND"
-                className="h-96 w-96 shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={350}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Add CSV</h1>
             <p className="mb-5">
               To add a new Question by CSV(Comma-Separated Values), click the
-              "Add CSV" button. This will redirect you to a form where you can
+              Add CSV button. This will redirect you to a form where you can
               input the details about Course, Module and File.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/addquestioncsv.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-2">3. Filter the Record</h1>
@@ -61,23 +68,27 @@ function QuestionDocumentation() {
               management page to filter the list by course or question.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/adminfilterquestion.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={950}
+                width={950}
               />
             </div>
             <h1 className="font-semibold mt-2">4. Delete the Record</h1>
             <p className="mb-5">
               To delete a Question, click the {`Action (...)`} in the last
-              column of the table, then select the "Delete" option from the
+              column of the table, then select the Delete option from the
               dropdown menu. Confirm the deletion in the prompt that appears.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/questiondeletion.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-2">
@@ -85,14 +96,16 @@ function QuestionDocumentation() {
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the Question table, click the
-              "Columns" button and select or deselect the columns you want to
+              Columns button and select or deselect the columns you want to
               display.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/questioncolumn.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={150}
+                width={150}
               />
             </div>
           </div>

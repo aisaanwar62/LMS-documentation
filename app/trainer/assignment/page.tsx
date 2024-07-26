@@ -1,6 +1,7 @@
+import Image from "next/image";
 import React from "react";
 
-function TrainersDocumentation() {
+function TrainerAssignment() {
   return (
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className="ml-96 pl-16 mr-16">
@@ -22,10 +23,12 @@ function TrainersDocumentation() {
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/assignment.png"
               alt="IMG NO FOUND"
-              className="h-72 w-auto shadow-lg transform transition-transform duration-300 hover:scale-110"
+              className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+              height={1000}
+              width={1000}
             />
           </div>
 
@@ -33,14 +36,16 @@ function TrainersDocumentation() {
             <h1 className="font-bold">How to Manage Assignment</h1>
             <h1 className="font-semibold mt-4">1. Add New Assignment</h1>
             <p className="mb-5">
-              To add a new Assignment, click the "Add New" button. This will
+              To add a new Assignment, click the Add New button. This will
               redirect you to a form where you can input the Assignment details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/addassignment.png"
                 alt="IMG NO FOUND"
-                className="h-96 w-96 shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={350}
+                width={350}
               />
             </div>
             <h1 className="font-semibold mt-4">2. Filter the Record</h1>
@@ -49,38 +54,44 @@ function TrainersDocumentation() {
               management page to filter the list by Assignment name or status.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/trainerfilterassignment.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={1000}
+                width={1000}
               />
             </div>
             <h1 className="font-semibold mt-4">3. View Trainees Assignment</h1>
             <p className="mb-5">
               To view trainees assignment, click the {`Action (...)`} in the
-              last column of the table, then select the "View Trainees
-              Assignment" option from the dropdown menu. This will open a page
-              to View Trainees Assignment.
+              last column of the table, then select the View Trainees Assignment
+              option from the dropdown menu. This will open a page to View
+              Trainees Assignment.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/trainermarkassignment.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={950}
+                width={950}
               />
             </div>
             <h1 className="font-semibold mt-4">4. Delete the Record</h1>
             <p className="mb-5">
               To delete an assignment, click the {`Action (...)`} in the last
-              column of the table, then select the "Delete" option from the
+              column of the table, then select the Delete option from the
               dropdown menu. Confirm the deletion in the dialog box that
               appears.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/trainerassignmentdeletion.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className="shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-4">
@@ -88,14 +99,16 @@ function TrainersDocumentation() {
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the assignment table, click
-              the "Columns" button and select or deselect the columns you want
-              to display.
+              the Columns button and select or deselect the columns you want to
+              display.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/trainerlecturecolumn.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={150}
+                width={200}
               />
             </div>
           </div>
@@ -105,4 +118,4 @@ function TrainersDocumentation() {
   );
 }
 
-export default TrainersDocumentation;
+export default TrainerAssignment;

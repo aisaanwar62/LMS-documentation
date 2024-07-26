@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Dashboard() {
@@ -5,7 +6,6 @@ function Dashboard() {
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className=" ml-96 pl-16 mr-16">
         <h1 className="text-xl font-bold">Dashboard</h1>
-        <h2 className="text-gray-600 text-base mt-2">Admin Dashboard</h2>
         <div className="content-section__box">
           <div className="mt-4">
             <p className="mb-10">
@@ -15,10 +15,12 @@ function Dashboard() {
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/admindashboard.png"
               alt="IMG NOT FOUND"
-              className="h-auto w-auto  shadow-lg transform transition-transform duration-300 hover:scale-100"
+              className="  shadow-lg transform transition-transform duration-300 hover:scale-105"
+              height={950}
+              width={950}
             />
           </div>
           <div className=" ">
@@ -31,10 +33,12 @@ function Dashboard() {
                 the image of the Admin Login page:
               </p>
               <div className="flex items-center justify-center my-8">
-                <img
+                <Image
                   src="/adminlogin.png"
                   alt="IMG NOT FOUND"
-                  className="h-96 w-auto  shadow-lg transform transition-transform duration-300 hover:scale-105"
+                  className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                  height={750}
+                  width={750}
                 />
               </div>
               <p className="mb-5">
@@ -70,7 +74,7 @@ function Dashboard() {
               <p className="mb-5">
                 This section highlights the number of activities (e.g., tests,
                 assignments) scheduled for the day. It helps the admin stay
-                informed about the day's schedule.
+                informed about the days schedule.
               </p>
               <h1 className="font-semibold mt-2">5. Top 5 Students</h1>
               <p className="mb-5">

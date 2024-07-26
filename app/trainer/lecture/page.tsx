@@ -1,6 +1,7 @@
+import Image from "next/image";
 import React from "react";
 
-function LectureDocumentation() {
+function TrainerLecture() {
   return (
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className="ml-96 pl-16 mr-16">
@@ -19,10 +20,12 @@ function LectureDocumentation() {
               Delete the lecture. Below is the image of Lecture page:
             </p>
             <div className="flex items-center justify-center mb-5">
-              <img
+              <Image
                 src="/lecture.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={1000}
+                width={1000}
               />
             </div>
           </div>
@@ -31,14 +34,16 @@ function LectureDocumentation() {
             <h1 className="font-bold">How to Manage Lecture</h1>
             <h1 className="font-semibold mt-4">1. Add New Lecture</h1>
             <p className="mb-5">
-              To add a new Lecture, click the "Add New" button. This will
+              To add a new Lecture, click the `Add New` button. This will
               redirect you to a form where you can input the Lecture details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/addlecture.png"
                 alt="IMG NO FOUND"
-                className="h-96 w-96 shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className="shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-4">2. Filter the Record</h1>
@@ -47,23 +52,27 @@ function LectureDocumentation() {
               management page to filter the list by Module name.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/lecture.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={950}
+                width={950}
               />
             </div>
             <h1 className="font-semibold mt-4">3. Delete the Lecture</h1>
             <p className="mb-5">
               To delete a Lecture, click the {`Action (...)`} in the last column
-              of the table, then select the "Delete" option from the dropdown
+              of the table, then select the `Delete` option from the dropdown
               menu. Confirm the deletion in the dialogue box that appears.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/lecturedeletion.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-4">
@@ -71,14 +80,16 @@ function LectureDocumentation() {
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the Question table, click the
-              "Columns" button and select or deselect the columns you want to
+              `Columns` button and select or deselect the columns you want to
               display.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/trainerlecturecolumn.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={150}
+                width={200}
               />
             </div>
           </div>
@@ -88,4 +99,4 @@ function LectureDocumentation() {
   );
 }
 
-export default LectureDocumentation;
+export default TrainerLecture;

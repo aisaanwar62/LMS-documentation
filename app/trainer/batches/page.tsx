@@ -1,6 +1,7 @@
+import Image from "next/image";
 import React from "react";
 
-function BatchesDocumentation() {
+function TrainerBatches() {
   return (
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className="ml-96 pl-16 mr-16">
@@ -17,10 +18,12 @@ function BatchesDocumentation() {
               Date, End Date, Status. Below is the image of the Batch page:
             </p>
             <div className="flex items-center justify-center">
-              <img
+              <Image
                 src="/trainerbatches.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={850}
+                width={950}
               />
             </div>
           </div>
@@ -32,10 +35,12 @@ function BatchesDocumentation() {
               page to filter the list by batch name and course.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/trainerbatches.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={850}
+                width={950}
               />
             </div>
           </div>
@@ -45,4 +50,4 @@ function BatchesDocumentation() {
   );
 }
 
-export default BatchesDocumentation;
+export default TrainerBatches;

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function ModuleDocumentation() {
@@ -20,10 +21,12 @@ function ModuleDocumentation() {
               of the Modules page:
             </p>
             <div className="flex items-center justify-center">
-              <img
+              <Image
                 src="/modules.png"
                 alt="IMG NO FOUND"
-                className="h-96 w-full shadow-lg transform transition-transform duration-300 hover:scale-110"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={1000}
+                width={1000}
               />
             </div>
           </div>
@@ -32,14 +35,16 @@ function ModuleDocumentation() {
             <h1 className="font-bold">How to Manage Module</h1>
             <h1 className="font-semibold mt-4">1. Add New Module</h1>
             <p className="mb-5">
-              To add a new Module, click the "Add New" button. This will
-              redirect you to a form where you can input the batch details.
+              To add a new Module, click the Add New button. This will redirect
+              you to a form where you can input the batch details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/addmodules.png"
                 alt="IMG NO FOUND"
-                className="h-96 w-96 shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={350}
+                width={350}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Filter the Record</h1>
@@ -48,65 +53,74 @@ function ModuleDocumentation() {
               management page to filter the list by status or name.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/adminfiltermodule.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className="shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={1000}
+                width={1000}
               />
             </div>
             <h1 className="font-semibold mt-2">3. Edit the Module</h1>
             <p className="mb-5">
               To edit an existing Module, click the {`Action (...)`} in the last
-              column of the table, then select the "Edit" option from the
-              dropdown menu. This will open a page for updating Module details.
+              column of the table, then select the Edit option from the dropdown
+              menu. This will open a page for updating Module details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/editmodule.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={950}
+                width={1000}
               />
             </div>
             <h1 className="font-semibold mt-2">
               4. Edit the Submodule/ Chapter Creation
             </h1>
             <p className="mb-5">
-              To edit the Submodules within a module, click the "edit icon" in
-              the "Submodules part". This will open a page for updating the
-              Submodule.
+              To edit the Submodules within a module, click the edit icon in the
+              Submodules part. This will open a page for updating the Submodule.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/admineditsubmodule.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={1000}
+                width={950}
               />
             </div>
             <h1 className="font-semibold mt-2">5. Add the Submodule</h1>
             <p className="mb-5">
-              To a Submodule in a Module, click the "Add a submodule" button
-              inside the "Submodules part". This will open a form to Add New
+              To a Submodule in a Module, click the Add a submodule button
+              inside the Submodules part. This will open a form to Add New
               Submodule details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/adminaddsubmodule.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={650}
+                width={650}
               />
             </div>
             <h1 className="font-semibold mt-2">6. Delete the Module</h1>
             <p className="mb-5">
               To delete an existing Module, click the {`Action (...)`} in the
-              last column of the table, then select the "Delete" option from the
+              last column of the table, then select the Delete option from the
               dropdown menu. Confirm the deletion in the dialog box that
               appears.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/moduledeletion.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-2">
@@ -114,31 +128,18 @@ function ModuleDocumentation() {
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the Module table, click the
-              "Columns" button and select or deselect the columns you want to
+              Columns button and select or deselect the columns you want to
               display.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/modulescolumn.png"
                 alt="IMG NO FOUND"
-                className="h-ato w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={250}
+                width={150}
               />
             </div>
-            {/* <h1 className="font-semibold mt-2">
-              8. Copy the CNIC of a Trainee
-            </h1>
-            <p className="mb-5">
-              To copy the CNIC of a Module, click the {`Action (...)`} in the
-              last column of the table, then click the "Copy Module ID" option
-              form the dropdown menu. This will copy the CNIC to your clipboard.
-            </p>
-            <div className="flex items-center justify-center my-8">
-              <img
-                src="/copymoduleid.png"
-                alt="IMG NO FOUND"
-                className="h-56 w-56 shadow-lg transform transition-transform duration-300 hover:scale-105"
-              />
-            </div> */}
           </div>
         </div>
       </div>

@@ -27,16 +27,6 @@ export default function Sidebar() {
           >
             Introduction
           </Link>
-          <Link
-            href="/installation"
-            className={`menu block py-2 ${
-              pathname === "/installation"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
-            }`}
-          >
-            How to Install
-          </Link>
 
           <div className="font-bold mt-8">Admin</div>
           <Link

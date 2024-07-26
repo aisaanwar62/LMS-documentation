@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function CoursesDocumentation() {
@@ -21,10 +22,12 @@ function CoursesDocumentation() {
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/courses.png"
               alt="IMG NO FOUND"
-              className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+              className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+              height={900}
+              width={1000}
             />
           </div>
 
@@ -32,42 +35,48 @@ function CoursesDocumentation() {
             <h1 className="font-bold">How to Manage Courses</h1>
             <h1 className="font-semibold mt-4">1. Add New Course</h1>
             <p className="mb-5">
-              To add a new course, click the "Add New" button. This will
+              To add a new course, click the {`Add New`} button. This will
               redirect you to a form where you can input the course details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/addcourses.png"
                 alt="IMG NO FOUND"
-                className="h-72 w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Edit the Record</h1>
             <p className="mb-5">
               To edit an existing Course, click the {`Action (...)`} in the last
-              column of the table, then select the "Edit" option from the
+              column of the table, then select the `Edit` option from the
               dropdown menu. This will open a page for updating Course details.
             </p>
 
             <div className="flex items-center justify-center my-8 ">
-              <img
+              <Image
                 src="/editcourses.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={850}
+                width={850}
               />
             </div>
             <h1 className="font-semibold mt-2">3. Delete the Record</h1>
             <p className="mb-5">
               To delete an existing Course, click the {`Action (...)`} in the
-              last column of the table, then select the "Delete" option from the
+              last column of the table, then select the `Delete` option from the
               dropdown menu. Confirm the deletion in the dialog box that
               appears.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/confirmdeletion.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-110"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-2">
@@ -75,15 +84,17 @@ function CoursesDocumentation() {
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the Course table, click the
-              "Columns" button and select or deselect the columns you want to
+              `Columns` button and select or deselect the columns you want to
               display.
             </p>
 
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/coursecolumnselection.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-110"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={350}
               />
             </div>
             <h1 className="font-semibold mt-2">5. Filter the Record</h1>
@@ -92,10 +103,12 @@ function CoursesDocumentation() {
               management page to filter the list by Course name and title.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/adminfiltercourse.png"
                 alt="IMG NO FOUND"
-                className="h-48 w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className="shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={1000}
+                width={1500}
               />
             </div>
           </div>

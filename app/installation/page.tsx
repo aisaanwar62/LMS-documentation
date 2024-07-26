@@ -55,7 +55,7 @@ function Installation() {
               <li>
                 <p className="font-semibold mb-1">4. Automatic Compilation:</p>
                 While the development server is running, any changes you make to
-                the code will trigger automatic recompilation. There's no need
+                the code will trigger automatic recompilation. There is no need
                 to manually restart the server unless specified.
               </li>
               <li>
@@ -272,7 +272,7 @@ module.exports = {
                 <p className="font-normal mb-1">3. Make Your First Commit:</p>
                 Add all files to the staging area and make your initial commit:
                 <pre className="italic bg-gray-200 m-2 p-2">
-                  git add . git commit -m "Initial commit"
+                  git add . git commit -m Initial commit
                 </pre>
                 <p className="font-normal mb-1">
                   4. Connect to a Remote Repository:

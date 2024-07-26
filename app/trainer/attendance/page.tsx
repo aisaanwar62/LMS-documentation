@@ -1,6 +1,7 @@
+import Image from "next/image";
 import React from "react";
 
-function CoursesDocumentation() {
+function TrainerAttendance() {
   return (
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className="ml-96 pl-16 mr-16">
@@ -19,10 +20,12 @@ function CoursesDocumentation() {
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/markattendance.png"
               alt="IMG NO FOUND"
-              className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+              className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+              height={750}
+              width={850}
             />
           </div>
           <div className="mt-10">
@@ -32,10 +35,12 @@ function CoursesDocumentation() {
               management page to filter the list by Trainee name and email.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/markattendance.png"
                 alt="IMG NO FOUND"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={850}
               />
             </div>
           </div>
@@ -45,4 +50,4 @@ function CoursesDocumentation() {
   );
 }
 
-export default CoursesDocumentation;
+export default TrainerAttendance;

@@ -1,28 +1,69 @@
+import Image from "next/image";
 import React from "react";
 
-function Dashboard() {
+function TraineeDashboard() {
   return (
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className=" ml-96 pl-16 mr-16">
         <h1 className="text-xl font-bold">Dashboard</h1>
-        <h2 className="text-gray-600 text-base mt-2">Trainee Dashboard</h2>
         <div className="content-section__box">
           <div className="mt-4">
             <p className="mb-10">
               The Trainee Dashboard provides an overview of the key metrics and
               activities related to the Total Modules, Assignment, Tests, Active
               Activity, Your Daily Tasks, Your daily Plans and Tasks FInished.
+              Below is the image of the Trainee Dashboard:
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/traineedashboard.png"
               alt="IMG NO FOUND"
-              className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+              className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+              width={1000}
+              height={1000}
             />
           </div>
           <div className=" ">
-            <div className="mt-10">
+            <div className="mt-14">
+              <h1 className="font-bold mt-2 mb-4">
+                How to Access the Trainee Dashboard
+              </h1>
+              <p className="mb-5">
+                To access the Trainee Dashboard, Login to the Trainee page.
+                Below is the image of the Trainee Login page:
+              </p>
+              <div className="flex items-center justify-center my-14">
+                <Image
+                  src="/traineelogin.png"
+                  alt="IMG NOT FOUND"
+                  className="  shadow-lg transform transition-transform duration-300 hover:scale-105"
+                  height={750}
+                  width={750}
+                />
+              </div>
+              <div className="flex items-center justify-center my-14">
+                <Image
+                  src="/traineeregister.png"
+                  alt="IMG NOT FOUND"
+                  className="  shadow-lg transform transition-transform duration-300 hover:scale-105"
+                  height={750}
+                  width={750}
+                />
+              </div>
+              <p className="mb-5">
+                1. Log in to the Trainee panel using your credentials.
+              </p>
+              <p className="mb-5">
+                2. If you do not have an account then click on the Register link
+                it takes you to Registration Page.
+              </p>
+              <p className="mb-5">
+                3. Navigate to the Dashboard section from the main menu.
+              </p>
+              <p className="mb-5">
+                4. The dashboard will display the sections as described above.
+              </p>
               <h1 className="font-bold text-lg">Sections</h1>
               <h1 className="font-semibold mt-4">1. Total Modules</h1>
               <p className="mb-5">
@@ -62,19 +103,6 @@ function Dashboard() {
                 providing a sense of accomplishment and progress.
               </p>
             </div>
-
-            <h1 className="font-bold mt-2 mb-4">
-              How to Access the Trainee Dashboard
-            </h1>
-            <p className="mb-5">
-              1. Log in to the Trainee panel using your credentials.
-            </p>
-            <p className="mb-5">
-              2. Navigate to the Dashboard section from the main menu.
-            </p>
-            <p className="mb-5">
-              3. The dashboard will display the sections as described above.
-            </p>
           </div>
         </div>
       </div>
@@ -82,4 +110,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default TraineeDashboard;

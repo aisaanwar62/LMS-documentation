@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import Image from "next/image";
 
-function FeedbackDocumentation() {
+function TrainerSchedule() {
   return (
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className="ml-96 pl-16 mr-16">
@@ -17,10 +17,12 @@ function FeedbackDocumentation() {
               the image of Schedule page:
             </p>
             <div className="flex items-center justify-center">
-              <img
+              <Image
                 src="/trainerschedule.png"
                 alt="admin dashboard"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={1000}
+                width={1000}
               />
             </div>
           </div>
@@ -30,4 +32,4 @@ function FeedbackDocumentation() {
   );
 }
 
-export default FeedbackDocumentation;
+export default TrainerSchedule;

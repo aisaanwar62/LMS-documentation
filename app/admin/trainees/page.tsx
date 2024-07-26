@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function TraineesDocumentation() {
@@ -22,10 +23,12 @@ function TraineesDocumentation() {
             </p>
           </div>
           <div className="flex items-center justify-center">
-            <img
+            <Image
               src="/trainees.png"
               alt="IMG NO FOUNDd"
-              className="h-auto w-full  shadow-lg transform transition-transform duration-300 hover:scale-105"
+              className="  shadow-lg transform transition-transform duration-300 hover:scale-105"
+              height={900}
+              width={1000}
             />
           </div>
 
@@ -33,14 +36,16 @@ function TraineesDocumentation() {
             <h1 className="font-bold">How to Manage Trainees</h1>
             <h1 className="font-semibold mt-4">1. Add New Trainee</h1>
             <p className="mb-5">
-              To add a new trainee, click the "Add New" button. This will
-              redirect you to a form where you can input the trainee details.
+              To add a new trainee, click the Add New button. This will redirect
+              you to a form where you can input the trainee details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/addtrainees.png"
                 alt="IMG NO FOUNDd"
-                className="h-96 w-96 shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className="shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={350}
+                width={350}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Filter the Record</h1>
@@ -49,37 +54,43 @@ function TraineesDocumentation() {
               management page to filter the list by trainee email and name.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/adminfiltertrainee.png"
                 alt="IMG NO FOUNDd"
-                className="h-48 w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={1000}
+                width={950}
               />
             </div>
             <h1 className="font-semibold mt-2">3. Edit the Record</h1>
             <p className="mb-5">
               To edit an existing trainee, click the {`Action (...)`} in the
-              last column of the table, then select the "Edit" option from the
+              last column of the table, then select the Edit option from the
               dropdown menu. This will open a page for updating trainee details.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/edittrainees.png"
                 alt="IMG NO FOUNDd"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={950}
+                width={950}
               />
             </div>
             <h1 className="font-semibold mt-2">4. Delete the Record</h1>
             <p className="mb-5">
               To delete an existing trainee, click the {`Action (...)`} in the
-              last column of the table, then select the "Delete" option from the
+              last column of the table, then select the Delete option from the
               dropdown menu. Confirm the deletion in the dialog box that
               appears.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/traineedeletion.png"
                 alt="IMG NO FOUNDd"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
               />
             </div>
             <h1 className="font-semibold mt-2">
@@ -87,32 +98,18 @@ function TraineesDocumentation() {
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the trainee table, click the
-              "Columns" button and select or deselect the columns you want to
+              Columns button and select or deselect the columns you want to
               display.
             </p>
             <div className="flex items-center justify-center my-8">
-              <img
+              <Image
                 src="/traineecolumn.png"
                 alt="IMG NO FOUNDd"
-                className="h-auto w-auto shadow-lg transform transition-transform duration-300 hover:scale-105"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={250}
+                width={250}
               />
             </div>
-            {/* <h1 className="font-semibold mt-2">
-              6. Copy the CNIC of a Trainee
-            </h1>
-            <p className="mb-5">
-              6. To copy the CNIC of a traniee , click the {`Action (...)`} in
-              the last column of the table, then click the "Copy trainee ID"
-              option form the dropdown menu. This will copy the CNIC to your
-              clipboard.
-            </p>
-            <div className="flex items-center justify-center my-8">
-              <img
-                src="/copytraineeid.png"
-                alt="IMG NO FOUNDd"
-                className="h-56 w-56 shadow-lg transform transition-transform duration-300 hover:scale-105"
-              />
-            </div> */}
           </div>
         </div>
       </div>
