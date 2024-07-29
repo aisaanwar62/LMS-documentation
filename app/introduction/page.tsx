@@ -56,7 +56,7 @@ function Introduction() {
               <div className="w-full  gap-5 mt-8">
                 <ul className="flex flex-wrap  gap-4">
                   <li className="flex">
-                    <Card className="w-56  rounded-md bg-gray-100 border border-gray-200 ">
+                    <Card className="w-56  rounded-md bg-amber-400 border border-gray-200 ">
                       <CardHeader>
                         <CardTitle className="flex flex-col items-center justify-center text-base">
                           <LuAirplay />
@@ -67,7 +67,7 @@ function Introduction() {
                   </li>
 
                   <li className="flex items-center justify-center">
-                    <Card className="w-56 rounded-md bg-gray-100 border border-gray-200 ">
+                    <Card className="w-56 rounded-md bg-amber-400 border border-gray-200 ">
                       <CardHeader>
                         <CardTitle className="flex flex-col items-center justify-center text-base">
                           <BsLayoutSidebar />
@@ -78,7 +78,7 @@ function Introduction() {
                   </li>
 
                   <li className="flex items-center justify-center">
-                    <Card className="w-56 rounded-md bg-gray-100 border border-gray-200 ">
+                    <Card className="w-56 rounded-md bg-amber-400 border border-gray-200 ">
                       <CardHeader>
                         <CardTitle className="flex flex-col items-center justify-center text-base">
                           <PiFastForwardLight />
@@ -106,7 +106,7 @@ function Introduction() {
                         width={32}
                         height={32}
                       />
-                      <h1 className="font-medium mt-3  text-base">Chrome</h1>
+                      <h1 className="font-medium   text-base">Chrome</h1>
                     </CardContent>
                   </Card>
                   <Card className="flex items-center justify-center bg-gray-100 rounded-md  border border-gray-200 pt-2">
@@ -118,7 +118,7 @@ function Introduction() {
                         width={32}
                         height={32}
                       />
-                      <h1 className="font-medium mt-3 text-base">Edge</h1>
+                      <h1 className="font-medium text-base">Edge</h1>
                     </CardContent>
                   </Card>
                   <Card className="flex items-center justify-center bg-gray-100 rounded-md  border border-gray-200 pt-2">
@@ -130,7 +130,7 @@ function Introduction() {
                         width={32}
                         height={32}
                       />
-                      <h1 className="font-medium mt-3 text-base">Mozilla</h1>
+                      <h1 className="font-medium  text-base">Mozilla</h1>
                     </CardContent>
                   </Card>
                   <Card className="flex items-center justify-center bg-gray-100 rounded-md  border border-gray-200 pt-2">
@@ -142,7 +142,7 @@ function Introduction() {
                         width={32}
                         height={32}
                       />
-                      <div className="font-medium mt-3 text-base">Opera</div>
+                      <div className="font-medium text-base">Opera</div>
                     </CardContent>
                   </Card>
                   <Card className="flex h-28 items-center justify-center bg-gray-100 rounded-md  border border-gray-200 pt-2">
@@ -154,7 +154,7 @@ function Introduction() {
                         width={32}
                         height={32}
                       />
-                      <div className="font-medium mt-3 text-base">Safari</div>
+                      <div className="font-medium  text-base">Safari</div>
                     </CardContent>
                   </Card>
                 </div>

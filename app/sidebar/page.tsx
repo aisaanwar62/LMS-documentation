@@ -7,34 +7,34 @@ export default function Sidebar() {
   const pathname = usePathname();
   return (
     <div
-      className="fixed pt-14 w-64 h-full pb-14
+      className="fixed pt-28 w-64 h-full pb-14
     xl:ml-10 xl:w-80 
     lg:ml-24 lg:w-64 
     md:ml-10 md:w-60 
     sm:ml-10 sm:w-60 sm:text-xs 
-    2xl:ml-24 2xl:w-80 2xl:text-base"
+    2xl:ml-20 2xl:w-80 2xl:text-base"
     >
-      <div className="h-full pt-8 overflow-y-auto scrollbar-hide bg-gray-100">
+      <div className="h-full pt-10 pb-10 overflow-y-auto scrollbar-hide bg-gray-100 ">
         <div className="px-5">
           <div className="font-bold">Getting Started</div>
           <Link
             href="/introduction"
-            className={`menu block py-2 ${
+            className={`menu block py-2  ${
               pathname === "/introduction"
-                ? "bg-amber-500 text-white font-bold pl-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-3"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-3"
             }`}
           >
             Introduction
           </Link>
 
-          <div className="font-bold mt-8">Admin</div>
+          <div className="font-bold mt-5">Admin</div>
           <Link
             href="/admin/dashboard"
             className={`menu block py-2 ${
               pathname === "/admin/dashboard"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Dashboard
@@ -43,8 +43,8 @@ export default function Sidebar() {
             href="/admin/courses"
             className={`menu block py-2 ${
               pathname === "/admin/courses"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Courses
@@ -53,8 +53,8 @@ export default function Sidebar() {
             href="/admin/trainers"
             className={`menu block py-2 ${
               pathname === "/admin/trainers"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Trainers
@@ -63,8 +63,8 @@ export default function Sidebar() {
             href="/admin/trainees"
             className={`menu block py-2 ${
               pathname === "/admin/trainees"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Trainees
@@ -73,8 +73,8 @@ export default function Sidebar() {
             href="/admin/batches"
             className={`menu block py-2 ${
               pathname === "/admin/batches"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Batches
@@ -83,8 +83,8 @@ export default function Sidebar() {
             href="/admin/modules"
             className={`menu block py-2 ${
               pathname === "/admin/modules"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Modules
@@ -93,8 +93,8 @@ export default function Sidebar() {
             href="/admin/questions"
             className={`menu block py-2 ${
               pathname === "/admin/activities"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Questions
@@ -103,19 +103,19 @@ export default function Sidebar() {
             href="/admin/feedback"
             className={`menu block py-2 ${
               pathname === "/admin/feedback"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Feedback
           </Link>
-          <div className="font-bold mt-8">Trainer</div>
+          <div className="font-bold mt-5">Trainer</div>
           <Link
             href="/trainer/dashboard"
             className={`menu block py-2 ${
               pathname === "/trainer/dashboard"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Dashboard
@@ -124,8 +124,8 @@ export default function Sidebar() {
             href="/trainer/batches"
             className={`menu block py-2 ${
               pathname === "/trainer/batches"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Batch
@@ -134,8 +134,8 @@ export default function Sidebar() {
             href="/trainer/trainees"
             className={`menu block py-2 ${
               pathname === "/trainer/trainees"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Trainee
@@ -144,8 +144,8 @@ export default function Sidebar() {
             href="/trainer/attendance"
             className={`menu block py-2 ${
               pathname === "/trainer/attendance"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Attendance
@@ -154,8 +154,8 @@ export default function Sidebar() {
             href="/trainer/schedule"
             className={`menu block py-2 ${
               pathname === "/trainer/schedule"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Schedule
@@ -164,8 +164,8 @@ export default function Sidebar() {
             href="/trainer/submodules"
             className={`menu block py-2 ${
               pathname === "/trainer/submodules"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Submodule
@@ -174,8 +174,8 @@ export default function Sidebar() {
             href="/trainer/lecture"
             className={`menu block py-2 ${
               pathname === "/trainer/lecture"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Lecture
@@ -184,8 +184,8 @@ export default function Sidebar() {
             href="/trainer/assignment"
             className={`menu block py-2 ${
               pathname === "/trainer/assignment"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Assignment
@@ -194,19 +194,19 @@ export default function Sidebar() {
             href="/trainer/test"
             className={`menu block py-2 ${
               pathname === "/trainer/test"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Test
           </Link>
-          <div className="font-bold mt-8">Trainee</div>
+          <div className="font-bold mt-5">Trainee</div>
           <Link
             href="/trainee/dashboard"
             className={`menu block py-2 ${
               pathname === "/trainee/dashboard"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Dashboard
@@ -215,8 +215,8 @@ export default function Sidebar() {
             href="/trainee/schedule"
             className={`menu block py-2 ${
               pathname === "/trainee/schedule"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Schedule
@@ -225,8 +225,8 @@ export default function Sidebar() {
             href="/trainee/attendance"
             className={`menu block py-2 ${
               pathname === "/trainee/attendance"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Attendance
@@ -235,8 +235,8 @@ export default function Sidebar() {
             href="/trainee/lecture"
             className={`menu block py-2 ${
               pathname === "/trainee/lecture"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Lecture
@@ -245,8 +245,8 @@ export default function Sidebar() {
             href="/trainee/assignment"
             className={`menu block py-2 ${
               pathname === "/trainee/assignment"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Assignment
@@ -255,8 +255,8 @@ export default function Sidebar() {
             href="/trainee/test"
             className={`menu block py-2 ${
               pathname === "/trainee/test"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Test
@@ -266,8 +266,8 @@ export default function Sidebar() {
             href="/trainee/feedback"
             className={`menu block py-2 mb-2 ${
               pathname === "/trainee/feedback"
-                ? "bg-amber-500 text-white font-bold pl-2 mt-2 mb-2"
-                : "hover:bg-amber-500 hover:text-white hover:font-bold pl-2 mt-2"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2 mb-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
             Feedback

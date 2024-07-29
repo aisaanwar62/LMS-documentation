@@ -27,8 +27,8 @@ export default function RootLayout({
           <Sidebar />
         </div>
         <NextTopLoader />
-        {/* Main content area */}
-        <main className="flex-1  p-6 overflow-y-auto">{children}</main>
+
+        <main className="flex-1  p-6 pt-16 overflow-y-auto">{children}</main>
       </body>
     </html>
   );

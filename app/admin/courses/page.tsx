@@ -84,7 +84,7 @@ function CoursesDocumentation() {
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the Course table, click the
-              `Columns` button and select or deselect the columns you want to
+              Columns button and select or deselect the columns you want to
               display.
             </p>
 
