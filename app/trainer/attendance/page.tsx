@@ -21,7 +21,7 @@ function TrainerAttendance() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/markattendance.png"
+              src="/mark-attendance.png"
               alt="IMG NO FOUND"
               className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
               height={750}
@@ -29,14 +29,51 @@ function TrainerAttendance() {
             />
           </div>
           <div className="mt-10">
-            <h1 className="font-bold">Filter the Record</h1>
+            <h1 className="font-bold">How to Mark Attendance daily</h1>
             <p className="mb-5">
-              To search for a Record, use the search box on the Attendance
-              management page to filter the list by Trainee name and email.
+              To Mark the attendance of the trianees, click the `Get Attendance`
+              button a dialog box appears. Select the Date and Batch for which
+              you want to mark attendance.
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/markattendance.png"
+                src="/get-attendance-by-trainer.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={850}
+              />
+            </div>{" "}
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/get-attendance.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={350}
+                width={450}
+              />
+            </div>
+            <p className="mb-5">
+              Now you can check mark the Trainee as Present, Absent or Leave.
+            </p>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/mark-attendance-options.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
+              />
+            </div>
+            <h1 className="font-bold">Show or Hide Specific columns</h1>
+            <p className="mb-5">
+              To show or hide specific columns in the attendance table, click
+              the `Columns` button and select or deselect the columns you want
+              to display.
+            </p>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/mark-attendance-column.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={750}

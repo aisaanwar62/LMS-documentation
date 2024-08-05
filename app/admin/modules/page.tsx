@@ -9,7 +9,7 @@ function ModuleDocumentation() {
         <h2 className="text-gray-600 text-base mt-2">Modules Management</h2>
         <p className="mt-4">
           The Module page provides an overview of the Module management system,
-          including the ability to view, add, edit, search, and delete batches.
+          including the ability to view, add, edit, search, and delete Module.
         </p>
         <div className="content-section__box">
           <div className="mt-6">
@@ -25,8 +25,8 @@ function ModuleDocumentation() {
                 src="/modules.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={850}
+                width={850}
               />
             </div>
           </div>
@@ -40,11 +40,29 @@ function ModuleDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/addmodules.png"
+                src="/admin-before-add-module.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
+              />
+            </div>{" "}
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/add-module.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={350}
                 width={350}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/admin-after-add-module.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Filter the Record</h1>
@@ -54,11 +72,11 @@ function ModuleDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/adminfiltermodule.png"
+                src="/admin-filter-module.png"
                 alt="IMG NO FOUND"
                 className="shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={750}
+                width={750}
               />
             </div>
             <h1 className="font-semibold mt-2">3. Edit the Module</h1>
@@ -69,30 +87,23 @@ function ModuleDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/editmodule.png"
+                src="/edit-module-action.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={950}
-                width={1000}
+                height={750}
+                width={750}
               />
             </div>
-            <h1 className="font-semibold mt-2">
-              4. Edit the Submodule/ Chapter Creation
-            </h1>
-            <p className="mb-5">
-              To edit the Submodules within a module, click the edit icon in the
-              Submodules part. This will open a page for updating the Submodule.
-            </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/admineditsubmodule.png"
+                src="/edit-module.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={950}
+                height={750}
+                width={750}
               />
             </div>
-            <h1 className="font-semibold mt-2">5. Add the Submodule</h1>
+            <h1 className="font-semibold mt-2">4. Add the Submodule</h1>
             <p className="mb-5">
               To a Submodule in a Module, click the Add a submodule button
               inside the Submodules part. This will open a form to Add New
@@ -100,11 +111,45 @@ function ModuleDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/adminaddsubmodule.png"
+                src="/admin-before-add-submodule.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/admin-add-submodule.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
+              />
+            </div>
+            <h1 className="font-semibold mt-2">
+              5. Edit the Submodule/ Chapter Creation
+            </h1>
+            <p className="mb-5">
+              To edit the Submodules within a module, click the edit icon in the
+              Submodules part. This will open a page for updating the Submodule.
+            </p>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/admin-edit-submodule.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={650}
-                width={650}
+                width={750}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/edit-submodule.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={650}
+                width={750}
               />
             </div>
             <h1 className="font-semibold mt-2">6. Delete the Module</h1>
@@ -133,11 +178,11 @@ function ModuleDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/modulescolumn.png"
+                src="/modules-column.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={250}
-                width={150}
+                height={750}
+                width={800}
               />
             </div>
           </div>

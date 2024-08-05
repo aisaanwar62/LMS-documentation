@@ -40,11 +40,29 @@ function TrainersDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
+                src="/adminbeforeaddingtrainer.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
                 src="/addtrainers.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={350}
                 width={350}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/adminafteraddthetrainer.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Filter the Record</h1>
@@ -69,11 +87,20 @@ function TrainersDocumentation() {
             </p>
             <div className="flex items-center justify-center my-10">
               <Image
-                src="/edittrainer.png"
+                src="/trainer-edit-action.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={950}
-                width={1000}
+                height={850}
+                width={900}
+              />
+            </div>
+            <div className="flex items-center justify-center my-10">
+              <Image
+                src="/edit-trainer.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={800}
+                width={850}
               />
             </div>
             <h1 className="font-semibold mt-2">4. Delete the Record</h1>
@@ -102,11 +129,11 @@ function TrainersDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/admintrainercolumn.png"
+                src="/admin-trainer-column.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={250}
-                width={250}
+                height={750}
+                width={750}
               />
             </div>
           </div>

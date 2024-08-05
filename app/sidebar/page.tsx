@@ -14,7 +14,17 @@ export default function Sidebar() {
     sm:ml-10 sm:w-60 sm:text-xs 
     2xl:ml-20 2xl:w-80 2xl:text-base"
     >
-      <div className="h-full pt-10 pb-10 overflow-y-auto scrollbar-hide bg-gray-100 ">
+      <div
+        style={{
+          height: "100%",
+          paddingTop: "2.5rem",
+          paddingBottom: "2.5rem",
+          overflowY: "auto",
+          backgroundColor: "#f3f4f6", // Gray-100
+          scrollbarWidth: "thin",
+          scrollbarColor: "#f7a52a #e2e8f0", // thumb color and track color
+        }}
+      >
         <div className="px-5">
           <div className="font-bold">Getting Started</div>
           <Link
@@ -27,7 +37,6 @@ export default function Sidebar() {
           >
             Introduction
           </Link>
-
           <div className="font-bold mt-5">Admin</div>
           <Link
             href="/admin/dashboard"
@@ -161,6 +170,16 @@ export default function Sidebar() {
             Schedule
           </Link>
           <Link
+            href="/trainer/modules"
+            className={`menu block py-2 ${
+              pathname === "/trainer/modules"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
+            }`}
+          >
+            Module
+          </Link>{" "}
+          <Link
             href="/trainer/submodules"
             className={`menu block py-2 ${
               pathname === "/trainer/submodules"
@@ -252,16 +271,15 @@ export default function Sidebar() {
             Assignment
           </Link>
           <Link
-            href="/trainee/test"
+            href="/trainee/quiz"
             className={`menu block py-2 ${
-              pathname === "/trainee/test"
+              pathname === "/trainee/quiz"
                 ? "bg-amber-400 text-white font-bold pl-2 mt-2"
                 : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
           >
-            Test
+            Quiz
           </Link>
-
           <Link
             href="/trainee/feedback"
             className={`menu block py-2 mb-2 ${
@@ -271,6 +289,16 @@ export default function Sidebar() {
             }`}
           >
             Feedback
+          </Link>
+          <Link
+            href="/trainee/myprogress"
+            className={`menu block py-2 mb-2 ${
+              pathname === "/trainee/myprogress"
+                ? "bg-amber-400 text-white font-bold pl-2 mt-2 mb-2"
+                : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
+            }`}
+          >
+            My Progress
           </Link>
         </div>
       </div>

@@ -20,14 +20,38 @@ function TrainerTrainees() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/trainertrainees.png"
+              src="/trainer-trainee.png"
               alt="IMG NO FOUNDd"
               className=" w-full shadow-lg transform transition-transform duration-300 hover:scale-105"
-              height={1000}
-              width={1000}
+              height={900}
+              width={900}
             />
           </div>
           <div className="mt-10">
+            <h1 className="font-bold">View the Trainee Detail</h1>
+            <p className="mb-5">
+              To View the details of a Trainee, click the {`Action (...)`} in
+              the last column of the table, then select the View Detail from the
+              dropdown menu. It takes you to another page.
+            </p>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/trainer-view-detail-of-trainee.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
+              />
+            </div>{" "}
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/trainer-view-trainee-detail.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
+              />
+            </div>
             <h1 className="font-bold">Filter the Record</h1>
             <p className="mb-5">
               To search for a Trainee, use the search box on the Trainees page
@@ -35,11 +59,11 @@ function TrainerTrainees() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/trainerfiltertrainee.png"
+                src="/trainer-filter-trainee.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={750}
+                width={750}
               />
             </div>
           </div>

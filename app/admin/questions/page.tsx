@@ -22,11 +22,11 @@ function QuestionDocumentation() {
             </p>
             <div className="flex items-center justify-center">
               <Image
-                src="/question.png"
+                src="/questions.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={950}
-                width={1000}
+                width={950}
               />
             </div>
           </div>
@@ -40,11 +40,29 @@ function QuestionDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
+                src="/admin-before-add-new-question.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={850}
+                width={850}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
                 src="/addquestion.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={350}
                 width={450}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/admin-after-add-question.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={850}
+                width={850}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Add CSV</h1>
@@ -55,7 +73,16 @@ function QuestionDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/addquestioncsv.png"
+                src="/admin-before-add-new-csv.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={850}
+                width={850}
+              />
+            </div>{" "}
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/add-question-csv.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={450}
@@ -69,11 +96,11 @@ function QuestionDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/adminfilterquestion.png"
+                src="/admin-filter-question.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={950}
-                width={950}
+                height={850}
+                width={850}
               />
             </div>
             <h1 className="font-semibold mt-2">4. Delete the Record</h1>
@@ -101,11 +128,11 @@ function QuestionDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/questioncolumn.png"
+                src="/question-columns.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={150}
-                width={150}
+                height={850}
+                width={850}
               />
             </div>
           </div>

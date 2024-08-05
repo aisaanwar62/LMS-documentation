@@ -27,8 +27,8 @@ function TrainerAssignment() {
               src="/assignment.PNG"
               alt="IMG NO FOUND"
               className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-              height={1000}
-              width={1000}
+              height={900}
+              width={900}
             />
           </div>
 
@@ -41,28 +41,34 @@ function TrainerAssignment() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/addassignment.png"
+                src="/add-assignment.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/add-assignment-form.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={350}
                 width={350}
               />
-            </div>
-            <h1 className="font-semibold mt-4">2. Filter the Record</h1>
-            <p className="mb-5">
-              To search for a Assignment, use the search box on the Assignment
-              management page to filter the list by Assignment name or status.
-            </p>
+            </div>{" "}
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/trainerfilterassignment.png"
+                src="/after-add-assignment.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={750}
+                width={750}
               />
             </div>
-            <h1 className="font-semibold mt-4">3. View Trainees Assignment</h1>
+            <h1 className="font-semibold mt-4">
+              2. View Trainees Assignment/Mark Trainee Assignment
+            </h1>
             <p className="mb-5">
               To view trainees assignment, click the {`Action (...)`} in the
               last column of the table, then select the View Trainees Assignment
@@ -71,14 +77,23 @@ function TrainerAssignment() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/trainermarkassignment.png"
+                src="/trainer-view-assignment-option.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={950}
                 width={950}
               />
+            </div>{" "}
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/trainer-mark-assignment.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
+              />
             </div>
-            <h1 className="font-semibold mt-4">4. Delete the Record</h1>
+            <h1 className="font-semibold mt-4">3. Delete the Record</h1>
             <p className="mb-5">
               To delete an assignment, click the {`Action (...)`} in the last
               column of the table, then select the Delete option from the
@@ -95,7 +110,7 @@ function TrainerAssignment() {
               />
             </div>
             <h1 className="font-semibold mt-4">
-              5. Show or Hide Specific Columns
+              4. Show or Hide Specific Columns
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the assignment table, click
@@ -104,11 +119,11 @@ function TrainerAssignment() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/trainerlecturecolumn.png"
+                src="/trainer-assignment-column.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={150}
-                width={200}
+                height={750}
+                width={750}
               />
             </div>
           </div>

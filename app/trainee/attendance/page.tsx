@@ -22,11 +22,11 @@ function TraineeAttendance() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/traineeattendance.png"
+              src="/trainee-attendance.png"
               alt="IMG NO FOUND"
               className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-              height={1000}
-              width={1000}
+              height={900}
+              width={900}
             />
           </div>
         </div>

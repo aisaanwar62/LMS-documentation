@@ -25,8 +25,8 @@ function TrainerSubmodule() {
                 src="/submodule.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={900}
+                width={900}
               />
             </div>
           </div>
@@ -41,11 +41,11 @@ function TrainerSubmodule() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/submodulefilter.png"
+                src="/submodule-filter.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={800}
+                width={800}
               />
             </div>
             <h1 className="font-semibold mt-4">2. Edit the Record</h1>
@@ -57,11 +57,20 @@ function TrainerSubmodule() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/editsubmodule.png"
+                src="/edit-submodule-action.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={950}
-                width={950}
+                height={850}
+                width={850}
+              />
+            </div>{" "}
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/edit-submodule.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={850}
+                width={850}
               />
             </div>
             <h1 className="font-semibold mt-4">3. Delete the Record</h1>
@@ -90,11 +99,11 @@ function TrainerSubmodule() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/submodulecolumn.png"
+                src="/trainer-submodule-column.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={150}
-                width={150}
+                height={750}
+                width={750}
               />
             </div>
           </div>

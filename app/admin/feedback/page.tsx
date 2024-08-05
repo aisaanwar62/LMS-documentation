@@ -25,8 +25,8 @@ function FeedbackDocumentation() {
                 src="/feedback.png"
                 alt="admin dashboard"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={950}
+                width={950}
               />
             </div>
           </div>
@@ -40,11 +40,29 @@ function FeedbackDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/adminaddfeedback.png"
+                src="/admin-before-add-feedback.png"
                 alt="admin dashboard"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={250}
-                width={350}
+                height={850}
+                width={850}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/admin-add-feedback.png"
+                alt="admin dashboard"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/admin-after-add-feedback.png"
+                alt="admin dashboard"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={850}
+                width={850}
               />
             </div>
             <h1 className="font-semibold mt-4">2. Filter the Record</h1>
@@ -54,7 +72,7 @@ function FeedbackDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/adminfilterfeedback.png"
+                src="/admin-filter-feedback.png"
                 alt="admin dashboard"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={1000}
@@ -70,11 +88,20 @@ function FeedbackDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/viewtraineefeedback.png"
+                src="/view-trainee-feedback-action.png"
                 alt="admin dashboard"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={950}
-                width={950}
+                height={850}
+                width={850}
+              />
+            </div>{" "}
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/view-trainee-feedback.png"
+                alt="admin dashboard"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={650}
+                width={650}
               />
             </div>
             <h1 className="font-semibold mt-4">4. Delete Feedback</h1>
@@ -102,11 +129,11 @@ function FeedbackDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/feedbackcolumn.png"
+                src="/feedback-column.png"
                 alt="admin dashboard"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={250}
-                width={250}
+                height={850}
+                width={850}
               />
             </div>
           </div>

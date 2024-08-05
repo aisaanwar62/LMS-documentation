@@ -16,7 +16,7 @@ function Dashboard() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/admindashboard.png"
+              src="/admin-dashboard.png"
               alt="IMG NOT FOUND"
               className="  shadow-lg transform transition-transform duration-300 hover:scale-105"
               height={950}

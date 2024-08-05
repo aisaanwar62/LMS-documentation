@@ -41,11 +41,29 @@ function TraineesDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
+                src="/adminbeforeaddingtrainees.png"
+                alt="IMG NO FOUNDd"
+                className="shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
                 src="/addtrainees.png"
                 alt="IMG NO FOUNDd"
                 className="shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={350}
                 width={350}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/afteradminaddtrainees.png"
+                alt="IMG NO FOUNDd"
+                className="shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Filter the Record</h1>
@@ -70,11 +88,20 @@ function TraineesDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/edittrainees.png"
+                src="/edit-trainee-action.png"
                 alt="IMG NO FOUNDd"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={950}
-                width={950}
+                height={800}
+                width={850}
+              />
+            </div>{" "}
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/edit-trainees.png"
+                alt="IMG NO FOUNDd"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={850}
               />
             </div>
             <h1 className="font-semibold mt-2">4. Delete the Record</h1>
@@ -103,11 +130,11 @@ function TraineesDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/traineecolumn.png"
+                src="/trainee-column.png"
                 alt="IMG NO FOUNDd"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={250}
-                width={250}
+                height={700}
+                width={800}
               />
             </div>
           </div>

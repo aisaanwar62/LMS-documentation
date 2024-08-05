@@ -24,8 +24,8 @@ function TrainerLecture() {
                 src="/lecture.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={900}
+                width={900}
               />
             </div>
           </div>
@@ -39,28 +39,32 @@ function TrainerLecture() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/addlecture.png"
+                src="/add-lecture.png"
+                alt="IMG NO FOUND"
+                className="shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={650}
+                width={850}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/add-lecture-form.png"
                 alt="IMG NO FOUND"
                 className="shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={450}
                 width={450}
               />
-            </div>
-            <h1 className="font-semibold mt-4">2. Filter the Record</h1>
-            <p className="mb-5">
-              To search for a Lecture, use the search box on the Lecture
-              management page to filter the list by Module name.
-            </p>
+            </div>{" "}
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/lecture.png"
+                src="/after-add-lecture.png"
                 alt="IMG NO FOUND"
-                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={950}
-                width={950}
+                className="shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
               />
             </div>
-            <h1 className="font-semibold mt-4">3. Delete the Lecture</h1>
+            <h1 className="font-semibold mt-4">2. Delete the Lecture</h1>
             <p className="mb-5">
               To delete a Lecture, click the {`Action (...)`} in the last column
               of the table, then select the `Delete` option from the dropdown
@@ -76,7 +80,7 @@ function TrainerLecture() {
               />
             </div>
             <h1 className="font-semibold mt-4">
-              5. Show or Hide Specific columns
+              3. Show or Hide Specific columns
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the Question table, click the
@@ -85,11 +89,11 @@ function TrainerLecture() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/trainerlecturecolumn.png"
+                src="/trainer-lecture-column.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={150}
-                width={200}
+                height={750}
+                width={750}
               />
             </div>
           </div>

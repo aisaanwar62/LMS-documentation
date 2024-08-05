@@ -19,7 +19,7 @@ function TrainerBatches() {
             </p>
             <div className="flex items-center justify-center">
               <Image
-                src="/trainerbatches.png"
+                src="/trainer-batches.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={850}
@@ -29,14 +29,15 @@ function TrainerBatches() {
           </div>
 
           <div className="mt-10">
-            <h1 className="font-bold">Filter the Record</h1>
+            <h1 className="font-bold">Show or Hide Specific columns</h1>
             <p className="mb-5">
-              To search for a batch, use the search box on the batch management
-              page to filter the list by batch name and course.
+              To show or hide specific columns in the Batches table, click the
+              `Columns` button and select or deselect the columns you want to
+              display.
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/trainerbatches.png"
+                src="/trainer-batches-column.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={850}

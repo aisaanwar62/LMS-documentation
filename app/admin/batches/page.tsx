@@ -26,8 +26,8 @@ function BatchesDocumentation() {
                 src="/batches.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                width={1000}
-                height={900}
+                width={900}
+                height={800}
               />
             </div>
           </div>
@@ -42,11 +42,29 @@ function BatchesDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/addbatches.png"
+                src="/admin-before-add-batch.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                width={750}
+                height={750}
+              />
+            </div>{" "}
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/add-batches.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 width={350}
                 height={350}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/admin-after-add-batch.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                width={750}
+                height={750}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Filter the Record</h1>
@@ -56,11 +74,11 @@ function BatchesDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/adminfilterbatch.png"
+                src="/admin-filter-batches.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                width={1000}
-                height={1000}
+                width={900}
+                height={900}
               />
             </div>
             <h1 className="font-semibold mt-2">3. Edit the Record</h1>
@@ -71,11 +89,20 @@ function BatchesDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/editbatches.png"
+                src="/batch-edit-action.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                width={950}
-                height={950}
+                width={750}
+                height={750}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/edit-batches.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                width={750}
+                height={750}
               />
             </div>
             <h1 className="font-semibold mt-2">4. Delete the Record</h1>
@@ -104,14 +131,13 @@ function BatchesDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/batchcolumn.png"
+                src="/batch-column.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={250}
-                width={250}
+                height={700}
+                width={750}
               />
             </div>
-
             <h1 className="font-semibold mt-2">
               6. Schedule a Batch/ Creating Attendance
             </h1>
@@ -121,6 +147,15 @@ function BatchesDocumentation() {
               dropdown menu. This will allow you to set or update the batch
               schedule.
             </p>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/batch-schedule.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
+              />{" "}
+            </div>
             <div className="flex items-center justify-center my-8">
               <Image
                 src="/schedulebatch.png"

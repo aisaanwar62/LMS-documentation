@@ -26,8 +26,8 @@ function TrainerTest() {
               src="/test.png"
               alt="IMG NO FOUND"
               className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-              height={1000}
-              width={1000}
+              height={900}
+              width={900}
             />
           </div>
 
@@ -36,16 +36,36 @@ function TrainerTest() {
             <h1 className="font-bold">How to Manage Tests</h1>
             <h1 className="font-semibold mt-4">1. Add New Test</h1>
             <p className="mb-5">
-              To add a new Test, click the Add New button. This will redirect
-              you to a form where you can input the Test details.
+              First of all, make sure that the admin added the Questions of the
+              Specific Batch for whom you want to add new test then, click the
+              Add New button. This will redirect you to a form where you can
+              input the Test details.
             </p>
             <div className="flex items-center justify-center mt-5">
               <Image
-                src="/addtest.png"
+                src="/trainer-add-test-option.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={350}
-                width={350}
+                height={750}
+                width={750}
+              />
+            </div>
+            <div className="flex items-center justify-center mt-5">
+              <Image
+                src="/add-test.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
+              />
+            </div>
+            <div className="flex items-center justify-center mt-5">
+              <Image
+                src="/after-add-test.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
               />
             </div>
             <h1 className="font-semibold mt-4">2. Filter the Record</h1>
@@ -55,11 +75,11 @@ function TrainerTest() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/trainertestfilter.png"
+                src="/trainer-test-filter.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={750}
+                width={750}
               />
             </div>
             <h1 className="font-semibold mt-4">3. View Results</h1>
@@ -70,11 +90,20 @@ function TrainerTest() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/testresult.png"
+                src="/trainer-view-test-result.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={950}
-                width={1000}
+                height={750}
+                width={750}
+              />
+            </div>{" "}
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/test-result.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={750}
               />
             </div>
             <h1 className="font-semibold mt-4">4. Delete the Record</h1>
@@ -102,11 +131,11 @@ function TrainerTest() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/trainertestcolumn.png"
+                src="/trainer-filter-test.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={150}
-                width={200}
+                height={750}
+                width={750}
               />
             </div>
           </div>

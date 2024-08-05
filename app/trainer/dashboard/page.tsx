@@ -17,11 +17,11 @@ function TrainerDashboard() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/trainerdashboard.png"
+              src="/trainer-dashboard.png"
               alt="IMG NO FOUND"
               className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-              height={950}
-              width={950}
+              height={850}
+              width={850}
             />
           </div>
           <div className=" ">

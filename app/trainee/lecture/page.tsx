@@ -17,15 +17,17 @@ function TraineeLecture() {
             <h1 className="font-bold">Overview</h1>
             <p className="mb-10 mt-3">
               The Lecture Data Table include the Trainer Name, Lecture Link, Lab
-              Link, Date, Password,and File. Below is the image of Lecture page:
+              Link, Date, Password,and File. The Trainee can get the lecture
+              link , lab link and files by clicking on them. Below is the image
+              of Lecture page:
             </p>
             <div className="flex items-center justify-center mb-5">
               <Image
-                src="/traineelecture.png"
+                src="/trainee-lecture.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={850}
+                width={900}
               />
             </div>
           </div>

@@ -23,27 +23,45 @@ function TraineeAssignment() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/traineeassignment.png"
+              src="/trainee-assignment.png"
               alt="IMG NO FOUND"
               className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-              height={1000}
-              width={1000}
+              height={900}
+              width={900}
             />
           </div>
 
           <div className="mt-10">
             <h1 className="font-semibold mt-4">How to Upload the Assignment</h1>
             <p className="mb-5">
-              To Upload the a Solution, click the Upload Solution Icon. This
-              will Upload your Solution.
+              To Upload the a Solution, click the Upload Solution Icon. A
+              dialogbox appears choose your assignment file and upload it.
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/uploadsolution.png"
+                src="/upload-solution.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={150}
-                width={150}
+                height={850}
+                width={850}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/upload-solution-form.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={450}
+                width={450}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/after-uploading-solution.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={850}
+                width={850}
               />
             </div>
           </div>

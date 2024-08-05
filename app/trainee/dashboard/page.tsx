@@ -17,7 +17,7 @@ function TraineeDashboard() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/traineedashboard.png"
+              src="/trainee-dashboard.png"
               alt="IMG NO FOUND"
               className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
               width={1000}

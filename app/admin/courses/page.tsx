@@ -23,7 +23,7 @@ function CoursesDocumentation() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/courses.png"
+              src="/course.png"
               alt="IMG NO FOUND"
               className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
               height={900}
@@ -40,11 +40,29 @@ function CoursesDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
+                src="/adminbeforeaddcourse.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={600}
+                width={700}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
                 src="/addcourses.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={450}
                 width={450}
+              />
+            </div>{" "}
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/afteradminaddcourses.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={600}
+                width={700}
               />
             </div>
             <h1 className="font-semibold mt-2">2. Edit the Record</h1>
@@ -53,10 +71,18 @@ function CoursesDocumentation() {
               column of the table, then select the `Edit` option from the
               dropdown menu. This will open a page for updating Course details.
             </p>
-
             <div className="flex items-center justify-center my-8 ">
               <Image
-                src="/editcourses.png"
+                src="/editcourseaction.png"
+                alt="IMG NO FOUND"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={750}
+                width={850}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8 ">
+              <Image
+                src="/edit-courses.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={850}
@@ -87,14 +113,13 @@ function CoursesDocumentation() {
               Columns button and select or deselect the columns you want to
               display.
             </p>
-
             <div className="flex items-center justify-center my-8">
               <Image
                 src="/coursecolumnselection.png"
                 alt="IMG NO FOUND"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={450}
-                width={350}
+                height={750}
+                width={750}
               />
             </div>
             <h1 className="font-semibold mt-2">5. Filter the Record</h1>
@@ -104,7 +129,7 @@ function CoursesDocumentation() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/adminfiltercourse.png"
+                src="/adminfiltercourses.png"
                 alt="IMG NO FOUND"
                 className="shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={1000}

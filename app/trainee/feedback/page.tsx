@@ -22,7 +22,7 @@ function TraineeFeedback() {
             </p>
             <div className="flex items-center justify-center mb-5">
               <Image
-                src="/traineefeedbackpage.png"
+                src="/trainee-feedbackpage.png"
                 alt="admin dashboard"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={1000}
@@ -43,45 +43,34 @@ function TraineeFeedback() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/traineestartthefeedback.png"
+                src="/trainee-start-feedback.png"
                 alt="admin dashboard"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={850}
                 width={850}
               />
             </div>
-            <h1 className="font-semibold mt-4">2. Filter the Record</h1>
-            <p className="mb-5">
-              To search for feedback, use the search box on the feedback
-              management page to filter the list by name or title.
-            </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/traineefeedback.png"
+                src="/trainee-start-feeback-page1.png"
                 alt="admin dashboard"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={850}
+                width={850}
+              />
+            </div>
+            <div className="flex items-center justify-center my-8">
+              <Image
+                src="/trainee-start-feedback-page2.png"
+                alt="admin dashboard"
+                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
+                height={850}
+                width={850}
               />
             </div>
 
-            <h1 className="font-semibold mt-4">3. Delete Feedback</h1>
-            <p className="mb-5">
-              To Delete feedback, click the {`Action (...)`} in the last column
-              of the table, then select the Delete option from the dropdown
-              menu. Confirm the deletion in the dialog box that appears.
-            </p>
-            <div className="flex items-center justify-center my-8">
-              <Image
-                src="/traineedeletefeedback.png"
-                alt="admin dashboard"
-                className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={450}
-                width={450}
-              />
-            </div>
             <h1 className="font-semibold mt-2">
-              4. Show or Hide Specific Columns
+              2. Show or Hide Specific Columns
             </h1>
             <p className="mb-5">
               To show or hide specific columns in the feedback table, click the
@@ -90,11 +79,11 @@ function TraineeFeedback() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/traineefeedbackcolumn.png"
+                src="/trainee-feeback-column.png"
                 alt="admin dashboard"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={250}
-                width={250}
+                height={850}
+                width={850}
               />
             </div>
           </div>

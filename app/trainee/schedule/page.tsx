@@ -14,17 +14,17 @@ function TraineeSchedule() {
           <div className="mt-6">
             <h1 className="font-bold">Overview</h1>
             <p className="mb-10 mt-3">
-              The Schedule Show the number of leactures he has to take. Below is
-              the image of Schedule page:
+              The Schedule Show the starting date of the Batch. Below is the
+              image of Schedule page:
             </p>
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/trianeeschedule.png"
+              src="/trainee-schedule.png"
               alt="IMG NO FOUND"
               className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-              width={1000}
-              height={1000}
+              width={900}
+              height={900}
             />
           </div>
         </div>

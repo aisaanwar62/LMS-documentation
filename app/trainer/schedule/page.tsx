@@ -13,16 +13,16 @@ function TrainerSchedule() {
           <div className="mt-6">
             <h1 className="font-bold">Overview</h1>
             <p className="mb-10 mt-3">
-              The Schedule Show the number of leactures he has to give. Below is
-              the image of Schedule page:
+              The Schedule Shows the staring date of the batches . Below is the
+              image of Schedule page:
             </p>
             <div className="flex items-center justify-center">
               <Image
-                src="/trainerschedule.png"
+                src="/trainer-schedule.png"
                 alt="admin dashboard"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
-                height={1000}
-                width={1000}
+                height={900}
+                width={900}
               />
             </div>
           </div>
