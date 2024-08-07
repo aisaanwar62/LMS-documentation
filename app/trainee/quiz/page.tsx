@@ -114,7 +114,7 @@ function TraineeTest() {
             </p>
             <div className="flex items-center justify-center my-8">
               <Image
-                src="/filter-Quiz.png"
+                src="/filter-quiz.png"
                 alt="IMG NO FOUNDd"
                 className=" shadow-lg transform transition-transform duration-300 hover:scale-105"
                 height={900}
