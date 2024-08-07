@@ -101,7 +101,7 @@ export default function Sidebar() {
           <Link
             href="/admin/questions"
             className={`menu block py-2 ${
-              pathname === "/admin/activities"
+              pathname === "/admin/questions"
                 ? "bg-amber-400 text-white font-bold pl-2 mt-2"
                 : "hover:bg-amber-400 hover:text-white hover:font-bold pl-2 mt-2"
             }`}
