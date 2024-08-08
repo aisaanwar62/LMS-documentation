@@ -6,7 +6,6 @@ function TraineeAssignment() {
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className="ml-96 pl-16 mr-16">
         <h1 className="text-xl font-bold">Assignment</h1>
-        <h2 className="text-gray-600 text-base mt-2">Assignment Management</h2>
         <p className="mt-4">
           The Assignment page provides an overview of the Assignment management
           system, including the ability to view the marks , download the

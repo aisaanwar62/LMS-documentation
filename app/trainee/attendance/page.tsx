@@ -6,7 +6,6 @@ function TraineeAttendance() {
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className="ml-96 pl-16 mr-16">
         <h1 className="text-xl font-bold">Attedance</h1>
-        <h2 className="text-gray-600 text-base mt-2">Attendance Management</h2>
         <p className="mt-4">
           The Attendance page provides an overview of the Attendance management
           system, including the ability to View the daily mark attendance and

@@ -6,7 +6,6 @@ function TraineeLecture() {
     <div className="content-section flex-1 max-h-[calc(100vh - 120px)] mt-20 mb-14">
       <div className="ml-96 pl-16 mr-16">
         <h1 className="text-xl font-bold">Lecture</h1>
-        <h2 className="text-gray-600 text-base mt-2">Lecture Management</h2>
         <p className="mt-4">
           The Lecture page provides an overview of the Lecture management
           system, including the ability to Open Lecture link, Lab link and
